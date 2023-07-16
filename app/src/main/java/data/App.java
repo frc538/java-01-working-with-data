@@ -40,5 +40,52 @@ public class App {
         // boolean - True/False 
         // System.out.println(true);
         // System.out.println(false);
+
+        // Variables
+        // A NAMED chunk of memory
+
+        // Declaring a variable
+        // String name;
+
+        // Assign to a variable
+        // "name GETS "Drew""
+        // name = "Drew";
+
+        // Declare AND Assign together
+        // Initialize -> First time we assign to a variable
+        // String name = "Drew";
+
+        // Program runs sequentially
+        // System.out.println(name);
+        // System.out.println("name");
+        // name = "Bob";
+        // System.out.println(name);
+        // System.out.println("name");
+
+        // Variable names A-Z, a-z, 0-9, _
+        // Cannot start with a number
+        // Prefer camel case
+        // String birthMonth = "June";
+
+        // String month = "January";
+        // System.out.println(month);
+        // char letter = 'A';
+        // System.out.println(letter);
+        // int age = 20;
+        // System.out.println(age);
+        // double pi = 3.14;
+        // System.out.println(pi);
+        // boolean isJava = true;
+        // System.out.println(isJava);
+        // isJava = false;
+        // System.out.println(isJava);
+
+        // Implicitly type your variable
+        // Java will assign the type for you
+        // For now, avoid this pattern
+        // var randomVariable = "A";
+
+        // Raw Values --> Literals
+        // System.out.println(true);
     }
 }
