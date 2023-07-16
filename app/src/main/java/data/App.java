@@ -87,5 +87,149 @@ public class App {
 
         // Raw Values --> Literals
         // System.out.println(true);
+
+        // Integer - Operators
+        // int number = 1;
+        // System.out.println(number);
+
+        // Unary negation operator
+        // number GETS negated number
+        // number = -number;
+        // System.out.println(number);
+        // double number = 0.5;
+        // System.out.println(number);
+        // number = -number;
+        // System.out.println(number);
+
+        // int a = 3;
+        // int b = 5;
+        // double a = 3.1;
+        // double b = 2.5;
+        
+        // Addition - BINARY
+        // int sum = a + b;
+        // int sum = b + a;
+        // double sum = a + b;
+        // System.out.println(sum);
+
+        // Subtraction - BINARY
+        // int differenceOne = a - b;
+        // int differenceTwo = b - a;
+        // double differenceOne = a - b;
+        // double differenceTwo = b - a;
+        // System.out.println(differenceOne);
+        // System.out.println(differenceTwo);
+
+        // Multiplication - BINARY
+        // int product = a * b;
+        // int product = b * a;
+        // double product = a * b;
+        // System.out.println(product);
+
+        // Coercion - treating one type as another IMPLICITLY
+        // int integer = 5;
+        // double realNumber = 2.1;
+        // double sum = integer + realNumber;
+        // System.out.println(sum);
+
+        // Division
+        // Integer Division - Remainder gets ignored
+        // Must produce an integer
+        // Result is ONLY the quotient
+        // Happens with two integers
+        // int a = 14;
+        // int b = 5;
+        // int quotientOne = a / b;
+        // int quotientTwo = b / a;
+        // System.out.println(quotientOne);
+        // System.out.println(quotientTwo);
+
+        // Real Division - With at least one real number
+        // Must produce a real number
+        // Works as expect - Calculator division
+        // double a = 14.0;
+        // double b = 5.0;
+
+        // double quotientOne = a / b;
+        // double quotientTwo = b / a;
+        // System.out.println(quotientOne);
+        // System.out.println(quotientTwo);
+
+        // int a = 14;
+        // double b = 5.0;
+        // double quotientOne = a / b;
+        // double quotientTwo = b / a;
+        // System.out.println(quotientOne);
+        // System.out.println(quotientTwo);
+
+        // Modulus or Modulo Division
+        // Going hand-in-hand with Integer Division
+        // Works with integers or real numbers or a combination
+        // int a = 14;
+        // int b = 5;
+        // int quotient = a / b;
+        // int remainder = a % b;
+        // System.out.println(quotient);
+        // System.out.println(remainder);
+
+        // double number = 5;
+        // System.out.println(number);
+
+        // Assignment
+        // number = number + 2;
+        // More common
+        // number += 2;
+
+        // Adds 1 (without assignment operator)
+        // Increment Operators
+        // Postfix
+        // number++;
+        // Prefix
+        // ++number;
+
+        // number = number * 10;
+        // number *= 10;
+
+        // number = number - 3;
+        // number -= 3;
+        // number += -3;
+
+        // Subtracts 1 (without assignment operator)
+        // Decrement
+        // Postfix
+        // number--;
+        // Prefix
+        // --number;
+
+        // Reassigns the quotient - FOR INTEGER VARIABLES
+        // For real number variables - regular division
+        // number = number / 2;
+        // number /= 2;
+
+        // Reassigns the remainder
+        // number = number % 2;
+        // number %= 2;
+
+        // System.out.println(number);
+
+        // double x = -10;
+        // Square Root - will give NaN for negative numbers
+        // double value = Math.sqrt(x);
+        // Absolute Value
+        // double value = Math.abs(x);
+        // double value = Math.sin(x);
+        // System.out.println(value);
+        // System.out.println(x);
+        // Using the function directly
+        // System.out.println(Math.abs(x));
+
+        // double a = 3.0;
+        // double b = 2.0;
+
+        // double power = Math.pow(a, b);
+        // double power = Math.pow(b, a);
+        // double power = Math.pow(2, 0.5);
+        // System.out.println(power);
+        // System.out.println(Math.sqrt(2));
     }
 }
