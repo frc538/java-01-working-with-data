@@ -231,5 +231,70 @@ public class App {
         // double power = Math.pow(2, 0.5);
         // System.out.println(power);
         // System.out.println(Math.sqrt(2));
+
+        // Boolean Operations
+
+        // Unary - NOT
+        // boolean a = false;
+        // System.out.println(a);
+
+        // ! - BANG, NOT
+        // NOT - takes the opposite
+        // boolean b = !a;
+        // a GETS NOT a
+        // Change true to false, OR, false to true
+        // a = !a;
+        // System.out.println(a);
+
+        // Binary
+        // boolean a = false;
+        // boolean b = true;
+
+        // LOGICAL AND (PREFER)
+        // Short-circuit - if the first is false, the whole thing is false
+        // Take two values
+        // Both are true -> True
+        // Otherwise -> False
+        // boolean result = a && b;
+        // System.out.println(result);
+
+        // Bitwise AND
+        // Cannot short circuit
+        // Gives same results
+        // boolean result = a & b;
+        // System.out.println(result);
+
+        // boolean a = false;
+        // boolean b = true;
+
+        // LOGICAL OR
+        // Short-circuit - if the first is true, the whole thing is true
+        // Take two values
+        // At least one true -> True
+        // Otherwise -> False
+        // boolean result = a || b;
+        // System.out.println(result);
+
+        // Bitwise OR
+        // Cannot short circuit
+        // Gives the same results
+        // boolean result = a | b;
+        // System.out.println(result);
+
+        // Exclusive OR (XOR)
+        // BITWISE ONLY
+        // Exactly one true -> True
+        // Otherwise -> False
+
+        // boolean a = false;
+        // boolean b = false;
+        // boolean result = a ^ b;
+        // System.out.println(result);
+
+        // int a = 4;
+        // int b = 7;
+        // int resultOne = a & b;
+        // int resultTwo = a | b;
+        // int resultThree = a ^ b;
     }
 }
